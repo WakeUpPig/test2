@@ -1,0 +1,1 @@
+/** process* 全局对象* 全局变量的宿主。* 1.全局变量的属性* 2.隐式定义的变量* */global.name='js';console.log(name);//age=4;console.log(global.age);

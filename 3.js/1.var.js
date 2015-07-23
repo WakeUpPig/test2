@@ -1,0 +1,1 @@
+/** 在js中，带var关键字和function关键字的需要预解释* function 声明并赋值* var 只声明* */console.log(num);var num = 9 ;fn();fn2();function fn(){    console.log('1');}var fn2 =function(){    console.log('2');}
