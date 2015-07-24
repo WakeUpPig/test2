@@ -1,0 +1,1 @@
+var fs = require('fs');fs.readFile('./a.txt', function (err,data) {    console.log(data.toString());});console.log('read Over');var content = fs.readFileSync('./a.txt');console.log(content.toString());console.log('content2');

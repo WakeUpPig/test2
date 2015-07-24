@@ -1,1 +1,1 @@
-/** process* 全局对象* 全局变量的宿主。* 1.全局变量的属性* 2.隐式定义的变量* */global.name='js';console.log(name);//age=4;console.log(global.age);
+/** process* 全局对象* 全局变量的宿主。* 1.全局变量的属性* 2.隐式定义的变量* */global.name='js';console.log(name);//age=4;console.log(global.age);/** process 就是一个全局变量，global对象的属性* 当前的进程** *///标准的输出流console.log();process.stdout.write('hello');process.stdin.on('data',function(data){    process.stdout.write(data);});//node-console-stub

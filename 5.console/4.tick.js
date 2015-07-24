@@ -1,0 +1,1 @@
+/**事件和事件环*IO密集型 不适合计算密集型* 任何时间只有一个进程，* *//** 银行* 同时来了两个客人* 1.存一万，全是一毛的。* 2.存1000万* */exec();function exec(){    process.nextTick(function(){        save();    });    console.log('存1000万');    var i  = 0;    while(i++<10){        console.log('2块');    }}function save(){    var i = 0;    while(i++<10){        console.log('一块');    }}
