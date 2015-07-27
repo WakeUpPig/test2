@@ -1,0 +1,1 @@
+var Person = require('./person');var p1 = new Person('杨过')var p2 = new Person('小龙女')console.log(p1.GetName())console.log(p2.GetName())console.log(p1._name);p1.__proto__._name='侠侣';var util = require('util');console.log(util.inspect(p1));console.dir(p1._name);console.log(p1.__proto__._name===p1._name);

@@ -1,0 +1,1 @@
+var home = require('./home.js');//var home2 = require('./home.js');//console.log(home === home2);//console.log(home.name);//console.log(home.showName('tom'));//console.log(home.showName('cat'));var h = new home();
