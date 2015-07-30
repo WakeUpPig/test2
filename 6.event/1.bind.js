@@ -1,0 +1,1 @@
+/** * Created by baidu on 15/7/28. */var person ={    name:'js',    say:function(words){        console.log(this.name+" say "+words);    }};person.say('hello');var p ={name:'tom'};person.say.call(p,'hello');//bind永久绑定上下文//func.bind(this.argss)//它返回绑定后的函数var newSay = person.say.bind(p,'newHello');newSay('hello');newSay.call(person,'new2hello');//绑定后指针不在变化
